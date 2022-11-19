@@ -16,8 +16,9 @@
   padding: 1rem;
   width: 50%;
   border: 2px solid rgb(0, 238, 255);
-  font-size: 20px;
+  font-size: 1rem;
   color: white;
+  text-align:center;
 }
  .App span {
   font-size: 2rem;
