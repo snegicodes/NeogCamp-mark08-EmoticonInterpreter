@@ -40,7 +40,10 @@ function App() {
   return (
     <div className="App">
       <h1>Know Your Emoji</h1>
-      <input onChange={emojiHandler} />
+      <input
+        onChange={emojiHandler}
+        placeholder="Enter Your Emoji or Click from the ones below..."
+      />
       <h2>{meaning}</h2>
       {emojisWeKnow.map((emoji) => {
         return <span onClick={() => emojiClickHandler(emoji)}>{emoji} </span>;
